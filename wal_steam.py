@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 wal_steam (Cody's fork)
-Copyright (C) 2017 Dakota Walsh
+Copyright (C) 2019 Dakota Walsh
 """
 import shutil                             # copying files
 import os                                 # getting paths
