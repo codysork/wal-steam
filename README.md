@@ -1,6 +1,7 @@
 # `wal_steam`
 
 A little program that themes the colors for Metro for steam from `wal`or `wpg`. Now with HiDPI support!
+This is a fork of the original script, which is no longer actively being maintained.
 
 ![1](https://ptpb.pw/l9Rw.png)
 
