@@ -25,26 +25,26 @@ import re
 from distutils.dir_util import copy_tree  # copytree from shutil is broken so use copy_tree
 from argparse import RawTextHelpFormatter
 
-# set some variables for the file locations
+# set some variables for the file locations 
 HOME_DIR          = os.getenv("HOME", os.getenv("USERPROFILE")) # should be crossplatform
 CACHE_DIR         = os.path.join(HOME_DIR, ".cache", "wal_steam")
 CONFIG_DIR        = os.path.join(HOME_DIR, ".config", "wal_steam")
-SKIN_NAME         = "Metro 4.3.1 Wal_Mod"
-VERSION           = "1.3.3"
+SKIN_NAME         = "Metro 4.3.1 Wal_Mod (Cody's Fork)"
+VERSION           = "0.1.1"
 CONFIG_FILE       = "wal_steam.conf"
 COLORS_FILE       = os.path.join(CACHE_DIR, "custom.styles")
 CONFIG_URL        = "https://raw.githubusercontent.com/kotajacob/wal_steam_config/master/wal_steam.conf"
 
 STEAM_DIR_OTHER   = os.path.expanduser("~/.steam/steam/skins")
 STEAM_DIR_OSX     = os.path.expanduser("~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins")
-STEAM_DIR_UBUNTU  = os.path.expanduser("~/.steam/skins")
+STEAM_DIR_UBUNTU  = os.path.expanduser("~/.steam/steam/skins")
 STEAM_DIR_WINDOWS = "C:\Program Files (x86)\Steam\skins"
 WAL_COLORS        = os.path.join(HOME_DIR, ".cache", "wal", "colors.css")
 WPG_COLORS        = os.path.join(HOME_DIR, ".config", "wpg", "formats", "colors.css")
 
-METRO_URL                 = "http://metroforsteam.com/downloads/4.3.1.zip"
+METRO_URL                 = "https://github.com/minischetti/metro-for-steam/archive/v4.4.zip"
 METRO_ZIP                 = os.path.join(CACHE_DIR, "metroZip.zip")
-METRO_DIR                 = os.path.join(CACHE_DIR, "metroZip")
+METRO_DIR                 = os.path.join(STEAM_DIR_UBUNTU, "metro-for-steam")
 METRO_COLORS_FILE         = os.path.join(METRO_DIR, "custom.styles")
 
 METRO_PATCH_URL  = "https://github.com/redsigma/UPMetroSkin/archive/e43f55b43f8ae565e162da664887051a1c76c5b4.zip" # A link to the version we've tested rather than the latest, just in case they break things upstream.
