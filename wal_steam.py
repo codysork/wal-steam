@@ -1,17 +1,7 @@
 #!/usr/bin/env python3
 """
-Wal Steam
-
-========================================
-oooo    oooo               .
-`888   .8P'              .o8
- 888  d8'     .ooooo.  .o888oo  .oooo.
- 88888[      d88' `88b   888   `P  )88b
- 888`88b.    888   888   888    .oP"888
- 888  `88b.  888   888   888 . d8(  888
-o888o  o888o `Y8bod8P'   "888" `Y888""8o
-               @nilsu.org
-=== Copyright (C) 2019  Dakota Walsh ===
+wal_steam (Cody's fork)
+Copyright (C) 2020
 """
 import shutil                             # copying files
 import os                                 # getting paths
