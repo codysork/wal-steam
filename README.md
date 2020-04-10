@@ -19,15 +19,15 @@ interesting features).
 
 ### Packages
 
-**Python PIP:** `sudo pip3 install wal-steam`
+**Python PIP:** Not available yet with pip.
 
-**Arch Linux AUR:** `yay -S python-wal-steam-git`
+**Arch Linux AUR:** Not availabel yet in the AUR.
 
 ### Manual
 
 **Pre-install:** Make sure [Wal](https://github.com/dylanaraps/pywal) or [Wpgtk](https://github.com/deviantfero/wpgtk) is installed and working.
 
-**Install:** `git clone https://github.com/kotajacob/wal_steam.git`
+**Install:** `git clone https://github.com/codysork/wal_steam.git`
 
 **Post-install:** See the "Using" section of this readme.
 
