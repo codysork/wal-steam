@@ -8,17 +8,16 @@ except (ImportError):
     quit(1)
 
 VERSION = wal_steam.VERSION
-DOWNLOAD = "https://github.com/kotajacob/wal_steam/archive/%s.tar.gz" % VERSION
-
+DOWNLOAD = "https://github.com/codysork/wal_steam/archive/%s.tar.gz" % VERSION
 
 setuptools.setup(
     name="wal_steam",
     version=VERSION,
-    author="Dakota Walsh",
-    author_email="kotawalsh@gmail.com",
-    description="A little program that themes the colors for Metro for steam from wal or wpg. Now with windows support!",
+    author="Cody Sork",
+    author_email="codysork@pm.me",
+    description="A fork of Dakota Walsh's original wal_steam script.",
     license="MIT",
-    url="https://github.com/kotajacob/wal_steam",
+    url="https://github.com/codysork/wal_steam",
     download_url=DOWNLOAD,
     classifiers=[
         "Environment :: X11 Applications",
