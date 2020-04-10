@@ -1,9 +1,6 @@
 # `wal_steam`
 
-A little program that themes the colors for Metro for steam from `wal`or `wpg`. Now with HiDPI support!
-This is a fork of the original script, which is no longer actively being maintained.
-
-![1](https://ptpb.pw/l9Rw.png)
+A little program that themes the colors for Metro for steam from `wal`or `wpg`. This is a fork of the original script by kotajacob, which is no longer actively being maintained.
 
 ## About
 
@@ -22,15 +19,15 @@ interesting features).
 
 ### Packages
 
-**Python PIP:** `sudo pip3 install wal-steam`
+**Python PIP:** Not available yet with pip.
 
-**Arch Linux AUR:** `yay -S python-wal-steam-git`
+**Arch Linux AUR:** Not availabel yet in the AUR.
 
 ### Manual
 
 **Pre-install:** Make sure [Wal](https://github.com/dylanaraps/pywal) or [Wpgtk](https://github.com/deviantfero/wpgtk) is installed and working.
 
-**Install:** `git clone https://github.com/kotajacob/wal_steam.git`
+**Install:** `git clone https://github.com/codysork/wal_steam.git`
 
 **Post-install:** See the "Using" section of this readme.
 
@@ -65,11 +62,3 @@ Options:
   -f --fonts           specify custom fonts
   -a --attempts        specify the max number of patch download attempts (DEFAULT=5)
 ```
-
-## Screenshots
-
-![2](https://ptpb.pw/kw6D.png)
-
-![3](https://ptpb.pw/zhFg.png)
-
-![4](https://ptpb.pw/xOo1.png)
