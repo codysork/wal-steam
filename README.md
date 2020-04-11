@@ -1,4 +1,4 @@
-# `wal_steam`
+# `wal-steam`
 
 A little program that themes the colors for Metro for steam from `wal`or `wpg`. This is a fork of the original script by kotajacob, which is no longer actively being maintained.
 
