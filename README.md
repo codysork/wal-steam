@@ -4,12 +4,12 @@ A little program that themes the colors for Metro for steam from `wal`or `wpg`. 
 
 ## Changes in This Fork
 
-- The executable for running this script is now ` wal-steam `, not ` wal_stream `.
+- The executable for running this script is now ` wal-steam `, not ` wal_steam `.
 - The [community patch](https://steamcommunity.com/groups/metroskin/discussions/0/141136086931804907) is currently disabled in this fork, because it was causing my steam library to fail to display.
 
 ## About
 
-`wal_steam` is a tiny program that is meant to work with either `wal` or `wpgtk`, by reading the colors they generate and making a color theme for a slightly tweaked version of Metro for Steam.
+`wal-stream` is a tiny program that is meant to work with either `wal` or `wpgtk`, by reading the colors they generate and making a color theme for a slightly tweaked version of Metro for Steam.
 
 [Wal](https://github.com/dylanaraps/pywal) is a little program for linux that creates a terminal color scheme based on your wallpaper (in addition to being able to set the wallpaper and a few other
 interesting features).
@@ -32,7 +32,7 @@ interesting features).
 
 **Pre-install:** Make sure [Wal](https://github.com/dylanaraps/pywal) or [Wpgtk](https://github.com/deviantfero/wpgtk) is installed and working.
 
-**Install:** `git clone https://github.com/codysork/wal_steam.git`
+**Install:** `git clone https://github.com/codysork/wal-stream.git`
 
 **Post-install:** See the "Using" section of this readme.
 
@@ -46,15 +46,15 @@ If you cloned the repo all you need to do is run the script with python 3 from w
 
 Example:
 
-`wal_steam -w`
+`wal-stream -w`
 
 ```
 Usage:
-  wal_steam.py (-w | -g | -u) [-d]
-  wal_steam.py ( -s ) ["/home/kota/bin/custom_steam_install/skins/"]
-  wal_steam.py (-h | --help)
-  wal_steam.py (-v | --version)
-  wal_steam.py (-f | --fonts) ["Ubuntu, Ubuntu Bold, Ubuntu Medium, Ubuntu Light"]
+  wal-stream.py (-w | -g | -u) [-d]
+  wal-stream.py ( -s ) ["/home/kota/bin/custom_steam_install/skins/"]
+  wal-stream.py (-h | --help)
+  wal-stream.py (-v | --version)
+  wal-stream.py (-f | --fonts) ["Ubuntu, Ubuntu Bold, Ubuntu Medium, Ubuntu Light"]
 
 Options:
   -h --help            show this help message and exit
