@@ -2,6 +2,11 @@
 
 A little program that themes the colors for Metro for steam from `wal`or `wpg`. This is a fork of the original script by kotajacob, which is no longer actively being maintained.
 
+## Changes in This Fork
+
+- The executable for running this script is now ` wal-steam `, not ` wal_stream `.
+- The [community patch](https://steamcommunity.com/groups/metroskin/discussions/0/141136086931804907) is currently disabled in this fork, because it was causing my steam library to fail to display.
+
 ## About
 
 `wal_steam` is a tiny program that is meant to work with either `wal` or `wpgtk`, by reading the colors they generate and making a color theme for a slightly tweaked version of Metro for Steam.
@@ -11,7 +16,7 @@ interesting features).
 
 [Wpgtk](https://github.com/deviantfero/wpgtk) is based on wal, but with the added feature of being able to generate gtk themes with the colors and bring a nice simple ui to wal.
 
-[Metro for steam](http://metroforsteam.com/) is a very nice looking skin for steam. The [community patch](https://steamcommunity.com/groups/metroskin/discussions/0/141136086931804907) is currently disabled in this fork, because it was causing my steam library to fail to display.
+[Metro for steam](http://metroforsteam.com/) is a very nice looking skin for steam. 
 
 ## Install
 
