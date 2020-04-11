@@ -308,10 +308,10 @@ def make_skin():
         z.extractall(METRO_PATCH_DIR)
 
     # finally apply the patch
-    shutil.copytree(METRO_PATCH_COPY, METRO_DIR,
-                    symlinks=False, ignore=None,
-                    copy_function=shutil.copy,
-                    ignore_dangling_symlinks=False, dirs_exist_ok=True)
+    # shutil.copytree(METRO_PATCH_COPY, METRO_DIR,
+    #                 symlinks=False, ignore=None,
+    #                 copy_function=shutil.copy,
+    #                 ignore_dangling_symlinks=False, dirs_exist_ok=True)
 
 def make_config():
     """Download the config for wal_steam"""
@@ -563,5 +563,5 @@ if __name__ == '__main__':
     alpha = get_config_alpha()
 
     # finally create a temp colors.styles and copy it in updating the skin
-    # set_custom_styles(colors, config_file_variables, wal_colors,
-                      # alpha, o_sys, fonts)
+    set_custom_styles(colors, config_file_variables, wal_colors,
+                      alpha, o_sys, fonts)
