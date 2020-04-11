@@ -11,7 +11,7 @@ interesting features).
 
 [Wpgtk](https://github.com/deviantfero/wpgtk) is based on wal, but with the added feature of being able to generate gtk themes with the colors and bring a nice simple ui to wal.
 
-[Metro for steam](http://metroforsteam.com/) is a very nice looking skin for steam. We also add the [community patch](https://steamcommunity.com/groups/metroskin/discussions/0/141136086931804907) which makes the skin render well on linux.
+[Metro for steam](http://metroforsteam.com/) is a very nice looking skin for steam. The [community patch](https://steamcommunity.com/groups/metroskin/discussions/0/141136086931804907) is currently disabled in this fork, because it was causing my steam library to fail to display.
 
 ## Install
 
