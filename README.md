@@ -26,7 +26,7 @@ interesting features).
 
 **Python PIP:** Not available yet with pip.
 
-**Arch Linux AUR:** Not availabel yet in the AUR.
+**Arch Linux AUR:** Not available yet in the AUR.
 
 ### Manual
 
