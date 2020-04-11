@@ -9,7 +9,7 @@ A little program that themes the colors for Metro for steam from `wal`or `wpg`. 
 
 ## About
 
-`wal-stream` is a tiny program that is meant to work with either `wal` or `wpgtk`, by reading the colors they generate and making a color theme for a slightly tweaked version of Metro for Steam.
+`wal-steam` is a tiny program that is meant to work with either `wal` or `wpgtk`, by reading the colors they generate and making a color theme for a slightly tweaked version of Metro for Steam.
 
 [Wal](https://github.com/dylanaraps/pywal) is a little program for linux that creates a terminal color scheme based on your wallpaper (in addition to being able to set the wallpaper and a few other
 interesting features).
@@ -32,7 +32,7 @@ interesting features).
 
 **Pre-install:** Make sure [Wal](https://github.com/dylanaraps/pywal) or [Wpgtk](https://github.com/deviantfero/wpgtk) is installed and working.
 
-**Install:** `git clone https://github.com/codysork/wal-stream.git`
+**Install:** `git clone https://github.com/codysork/wal-steam.git`
 
 **Post-install:** See the "Using" section of this readme.
 
@@ -46,15 +46,15 @@ If you cloned the repo all you need to do is run the script with python 3 from w
 
 Example:
 
-`wal-stream -w`
+`wal-steam -w`
 
 ```
 Usage:
-  wal-stream.py (-w | -g | -u) [-d]
-  wal-stream.py ( -s ) ["/home/kota/bin/custom_steam_install/skins/"]
-  wal-stream.py (-h | --help)
-  wal-stream.py (-v | --version)
-  wal-stream.py (-f | --fonts) ["Ubuntu, Ubuntu Bold, Ubuntu Medium, Ubuntu Light"]
+  wal-steam.py (-w | -g | -u) [-d]
+  wal-steam.py ( -s ) ["/home/kota/bin/custom_steam_install/skins/"]
+  wal-steam.py (-h | --help)
+  wal-steam.py (-v | --version)
+  wal-steam.py (-f | --fonts) ["Ubuntu, Ubuntu Bold, Ubuntu Medium, Ubuntu Light"]
 
 Options:
   -h --help            show this help message and exit
